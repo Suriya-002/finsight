@@ -1,0 +1,15 @@
+﻿aws_region: "us-east-1"
+model_id: "anthropic.claude-3-sonnet-20240229-v1:0"
+pinecone_api_key: ""
+pinecone_index: "finsight"
+
+news_sources:
+  - name: "SEC EDGAR"
+    type: "api"
+    url: "https://efts.sec.gov/LATEST/search-index"
+  - name: "Financial Times RSS"
+    type: "rss"
+    url: "https://www.ft.com/rss/home"
+  - name: "Reuters Business"
+    type: "rss"
+    url: "https://www.reutersagency.com/feed/"
